@@ -1,0 +1,47 @@
+---
+---
+$text-color: #303030;
+
+body {
+  font-family: cardo, Arial, Helvetica, sans-serif;
+  color: $text-color;
+}
+
+a, a:visited {
+  color: $text-color;
+}
+
+.container {
+  width: 700px;
+  margin: 6rem auto;
+}
+
+.post {
+  h1 {
+    font-size: 6.25rem;
+    line-height: 1em;
+  }
+}
+
+article p {
+  font-size: 1.12rem;
+  line-height: 1.75em;
+}
+
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  nav {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    ul {
+      margin: 0;
+      list-style-type: none;
+      padding: 0;
+    }
+  }
+}
