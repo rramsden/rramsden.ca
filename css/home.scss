@@ -1,9 +1,16 @@
 ---
 ---
-$text-color: #303030;
+$text-color: #494745;
+$base-font-size: 16px;
+$small-padding: 1.2em;
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
 
 body {
-  font-family: cardo, Arial, Helvetica, sans-serif;
+  font-family: "Rooney", "rooney-web", Arial, Helvetica, sans-serif;
+  font-size: $base-font-size;
   color: $text-color;
 }
 
@@ -16,15 +23,36 @@ a, a:visited {
   margin: 6rem auto;
 }
 
+h1,h2,h3,h4 {
+  font-family: cardo !important;
+}
+
 .post {
   h1 {
     font-size: 6.25rem;
     line-height: 1em;
   }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  em {
+    font-weight: bold;
+  }
+}
+
+highlighter-rouge {
+  border-radius: 5px;
+}
+
+pre.highlight {
+  padding: $small-padding;
 }
 
 article p {
-  font-size: 1.12rem;
+  font-size: 1.2rem;
+  font-weight: 300;
   line-height: 1.75em;
 }
 
